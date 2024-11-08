@@ -1,10 +1,12 @@
 import "./App.css";
-import PostList from "./components/PostList";
+import Pagination from "./components/Pagination";
+// import PostList from "./components/PostList";
 
 function App() {
   return (
     <>
-      <PostList />
+      {/* <PostList /> */}
+      <Pagination />
     </>
   );
 }
